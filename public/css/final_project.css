@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
+
+body {
+  margin: 0;
+  padding-top: 150px;
+  font-family: 'Tomorrow', sans-serif;
+  color: #625a56;
+}
+
+#nav {
+  width: 100%;
+  height: 110px;
+  padding: 10px 0 5px 0;
+  border-bottom: solid 8px black;
+  box-shadow: 10px 10px 10px #ccc;
+  position: absolute;
+  top: 0;
+}
+
+#title {
+  color: #625a56;
+  margin: 0;
+  font-family: "Baloo Bhaina";
+  text-transform: uppercase;
+}
+
+img {
+  margin: 0 10px 10px 0;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+.nav-align {
+  text-align: center;
+  padding: 3px 0;
+}
+
+.container {
+  padding: 0% 10%;
+}
+
+.button {
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  padding: 10px;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+.hero {
+  width: 100vw;
+  height: 400px;
+  background-image: url(/images/landscape.jpg);
+  background-size: cover;
+}
+
+.heroCalendar {
+  width: 100vw;
+  height: 400px;
+  background-image: url(/images/calendar.jpg);
+  background-size: cover;
+
+
+}
